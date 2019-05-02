@@ -51,7 +51,7 @@ router.post('/sendNotification', function (req, res) {
 });
 
 //post to function app
-var functionurl = "https://func-js-2019.azurewebsites.net/api/HttpTrigger2?code=mlLdYVKgmhuzrpaq3qSdvk5VAhDRKkM38tQra5agKeHasmonozF5QA==";
+var functionurl = "https://function-app-v2b.azurewebsites.net/api/Function-V2B?code=2asEG6OSWZBgdMwLIlf2wWIdHkyhqK7UB0TajGdXa4ARaH0A8OWSvw==https://func-js-2019.azurewebsites.net/api/HttpTrigger2?code=mlLdYVKgmhuzrpaq3qSdvk5VAhDRKkM38tQra5agKeHasmonozF5QA==";
 router.post('/postfunction', function (req, res) {
     request({
         url: functionurl,
