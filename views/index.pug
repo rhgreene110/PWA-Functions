@@ -1,0 +1,7 @@
+﻿extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  form(method='POST' action='/postfunction')
+    button.btn.btn-primary(type='submit') Send request to Azure Function App
